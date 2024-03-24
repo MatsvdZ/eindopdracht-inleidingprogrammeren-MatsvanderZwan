@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mats Says</title>
+</head>
+<body>
+    <div>
+        <div onclick="panelClicked(event.currentTarget)" class="paneel paneel-linksboven"></div>
+        <div onclick="panelClicked(event.currentTarget)" class="paneel paneel-rechtsboven"></div>
+    </div>
+    <div>
+        <div onclick="panelClicked(event.currentTarget)" class="paneel paneel-linksonder"></div>
+        <div onclick="panelClicked(event.currentTarget)" class="paneel paneel-rechtsonder"></div>
+    </div>
+    <div class="midden">
+        <p class="matssays">Mats Says</p>
+    </div>
+    <h1 class="verlorentekst" id="verloren">Helaas, je hebt verloren!</h1>
+    <button id="opnieuw" onclick="window.location.reload()">Probeer het opnieuw!</button>
+    <script src="script.js"></script>
+</body>
+</html>

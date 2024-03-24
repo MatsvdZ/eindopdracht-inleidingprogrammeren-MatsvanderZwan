@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.introtekst {
+    color: white;
+    margin: 3em auto 0 auto;
+    font-size: 3em;
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+    margin-top: 2em;
+}
+
+.start {
+    color: black;
+    font-size: 1.5em;
+    padding: 1em;
+    background-color: white;
+}
+
+.intro {
+    color: white;
+    margin: 1em 6em 5em 6em;
+}
+
+a {
+    text-decoration: none;
+    color: pink;
+    margin: 2em;
+}
+
+.paneel {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.paneel:hover { 
+    box-shadow: inset 0px 0px 0px 3px cyan;
+    box-sizing: border-box;
+}
+
+.paneel-rechtsonder {
+    background-color: red;
+    border-bottom-right-radius: 100%;
+}
+
+.paneel-linksonder {
+    background-color: blue;
+    border-bottom-left-radius: 100%;
+}
+
+.paneel-rechtsboven {
+    background-color: green;
+    border-top-right-radius: 100%;
+}
+
+.paneel-linksboven {
+    background-color: yellow;
+    border-top-left-radius: 100%;
+}
+
+.active{
+    background-color: white;
+}
+
+.midden {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: rgb(0, 0, 0);
+    top: -305px;
+}
+
+.matssays {
+    color: white;
+    margin-top: 2.5em;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+.verlorentekst {
+    color: white;
+    font-size: xx-large;
+    display: none;
+}
+
+#opnieuw {
+    display: none;
+    margin: 2em auto 0 auto;
+    padding: 1.5em;
+    border-radius: 1em;
+}
+
+#opnieuw:hover {
+    cursor: pointer;
+}
