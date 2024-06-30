@@ -1,115 +1,56 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    font-size: 20px;
-    max-width: 100%;
-}
-
 body {
-    background-color: black;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.introtekst {
-    color: white;
-    margin: 3em auto 0 auto;
-    font-size: 3em;
-}
-
-h2 {
-    color: white;
-    font-size: 2em;
-    margin-top: 2em;
-}
-
-.start {
-    color: black;
-    font-size: 1.5em;
-    padding: 1em;
-    background-color: white;
-}
-
-.intro {
-    color: white;
-    margin: 1em 6em 5em 6em;
-}
-
-a {
-    text-decoration: none;
-    color: pink;
-    margin: 2em;
-}
-
-.paneel {
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.paneel:hover { 
-    box-shadow: inset 0px 0px 0px 3px cyan;
-    box-sizing: border-box;
-}
-
-.paneel-rechtsonder {
-    background-color: red;
-    border-bottom-right-radius: 100%;
-}
-
-.paneel-linksonder {
-    background-color: blue;
-    border-bottom-left-radius: 100%;
-}
-
-.paneel-rechtsboven {
-    background-color: green;
-    border-top-right-radius: 100%;
-}
-
-.paneel-linksboven {
-    background-color: yellow;
-    border-top-left-radius: 100%;
-}
-
-.active{
-    background-color: white;
-}
-
-.midden {
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    background-color: rgb(0, 0, 0);
-    top: -305px;
-}
-
-.matssays {
-    color: white;
-    margin-top: 2.5em;
-    font-family: fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: xx-large;
 }
 
-.verlorentekst {
-    color: white;
-    font-size: xx-large;
-    display: none;
+div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
 }
 
-#opnieuw {
-    display: none;
-    margin: 2em auto 0 auto;
-    padding: 1.5em;
+input {
+    height: 60px;
+    width: 120px;
+    font-size: large;
+    text-align: center;
+}
+
+button {
+    padding: 20px 30px;
+    background: orange;
+    color: white;
+    border: none;
     border-radius: 1em;
+    font-size: large;
+    transition: 0.7s ease-in-out transform, 0.7s ease-in-out;
 }
 
-#opnieuw:hover {
+button:hover {
     cursor: pointer;
+    background: lightsalmon;
+    transition: 0.7s ease-in-out transform, 0.7s ease-in-out;
+}
+
+.refreshKnop {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    width: 9em;
+    height: 3em;
+    border-radius: 1em;
+    font-size: medium;
+    text-align: center;
+    transition: 0.7s ease-in-out transform, 0.7s ease-in-out;
+}
+
+.refreshKnop:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.7s ease-in-out transform, 0.7s ease-in-out;
 }
