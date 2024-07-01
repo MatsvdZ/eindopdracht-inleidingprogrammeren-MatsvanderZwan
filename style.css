@@ -1,6 +1,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: xx-large;
+    background: pink;
 }
 
 div {
@@ -21,7 +22,7 @@ input {
 
 button {
     padding: 20px 30px;
-    background: orange;
+    background: green;
     color: white;
     border: none;
     border-radius: 1em;
@@ -40,17 +41,27 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: orange;
+    background-color: green;
     color: white;
-    width: 9em;
-    height: 3em;
+    padding: 20px 30px;
     border-radius: 1em;
-    font-size: medium;
+    font-size: large;
     text-align: center;
     transition: 0.7s ease-in-out transform, 0.7s ease-in-out;
 }
 
 .refreshKnop:hover {
     color: rgb(255, 255, 255);
+    background: lightsalmon;
     transition: 0.7s ease-in-out transform, 0.7s ease-in-out;
+}
+
+footer {
+    font-size: xx-small;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }

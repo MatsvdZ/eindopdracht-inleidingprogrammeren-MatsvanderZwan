@@ -11,13 +11,13 @@
         <h1>Raad het getal</h1>
         <p>Raad het getal tussen 1 en 100</p>
         <input type="number" id="raad" min="1" max="100">
-        <button id="invoeren">Invoeren</button>
+        <button id="invoeren" onclick="audio.play();">Invoeren</button>
         <p id="hint"></p>
         <p id="pogingen"></p>
-        <div class="refreshKnop" onclick="location.reload()">
-            Refresh
+        <div class="refreshKnop" onclick="location.reload()">Restart
         </div>
     </div>
+    <footer>Gemaakt door Mats van der Zwan, klas Lila, voor inleiding programmeren</footer>
     <script src="script.js"></script>
 </body>
 </html>
