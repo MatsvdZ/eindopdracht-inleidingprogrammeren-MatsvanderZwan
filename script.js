@@ -26,7 +26,7 @@ function controleerAntwoord() {
     } else {
         hint.textContent = "je getal is te hoog";
     }
-
+    // door dit stukje code wordt het aantal pogingen onderaan het scherm steeds aangepast naar de juiste cijfers
     pogingenTekst.textContent = "Pogingen: " + pogingen;
 }
 
