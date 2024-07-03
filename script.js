@@ -6,8 +6,7 @@ const raad = document.getElementById("raad");
 const invoeren = document.getElementById("invoeren");
 const hint = document.getElementById("hint");
 const pogingenTekst = document.getElementById("pogingen");
-const audio = new Audio();
-audio.src = "click.mp3";
+const audio = new Audio("click.mp3");
 
 // Event listener, zorgt dat de knop reageert op de gebruiker zijn input en function uitvoert
 invoeren.addEventListener("click", controleerAntwoord)
@@ -16,6 +15,8 @@ invoeren.addEventListener("click", controleerAntwoord)
 function controleerAntwoord() {
     const userValue = Number(raad.value);
     pogingen = pogingen + 1; 
+
+    audio.play();
 
     // Conditionals, hiermee wordt aangegeven wanneer je het juiste getal hebt, of wanneer je te hoog of te laag zit
     
