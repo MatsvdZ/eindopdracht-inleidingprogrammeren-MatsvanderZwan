@@ -3,6 +3,7 @@ let pogingen = 0;
 let randomGetal = Math.floor(Math.random() * 100 + 1);
 
 const raad = document.getElementById("raad");
+const restart = document.getElementById("refreshKnop");
 const invoeren = document.getElementById("invoeren");
 const hint = document.getElementById("hint");
 const pogingenTekst = document.getElementById("pogingen");
@@ -53,3 +54,5 @@ function resetSpel() {
         }
     });
 }
+
+restart.addEventListener("click", resetSpel)
